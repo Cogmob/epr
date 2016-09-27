@@ -1,7 +1,7 @@
 from termcolor import colored
 import json
 
-def epr(i, color='black', attrs=[]):
+def epr(i, color=None, attrs=[]):
     if isinstance(i, str):
         print(colored(i, color, attrs=attrs))
     else:

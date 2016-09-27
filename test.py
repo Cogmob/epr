@@ -17,6 +17,8 @@ def set_up(path):
     epr_recursive_import(path + '/tmp_example_data')
 
 def do_tests(path):
+    epr('expect 8 green workings')
+
     yes_tests = [
             '/tmp_example_data/subdir/yes01.py',
             '/tmp_example_data/yes01.py',
