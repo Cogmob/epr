@@ -1,1 +1,4 @@
 #!/bin/bash
+source virtualenv/bin/activate
+pip freeze > requirements.txt
+deactivate
