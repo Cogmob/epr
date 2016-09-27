@@ -1,7 +1,7 @@
 import os
 import shutil
 from epr.epr_recursive_import import epr_recursive_import
-from epr.epr import epr
+from epr import epr
 
 def run():
     path = os.path.dirname(os.path.abspath(__file__))

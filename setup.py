@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
         name='epr',
-        version='0.25',
+        version='0.26',
         author='Luke Avery',
         author_email='cogmob@gmail.com',
         url='https://github.com/Cogmob/epr',
@@ -11,7 +11,8 @@ setup(
             'epr'
         ],
         install_requires=[
-            'glob2'
+            'glob2',
+            'termcolor'
         ],
         long_description=open('README.rst', 'r').read()
 )
