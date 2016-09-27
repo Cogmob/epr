@@ -10,5 +10,8 @@ setup(
         packages=[
             'epr'
         ],
+        install_requires=[
+            'glob2'
+        ],
         long_description=open('README.rst', 'r').read()
 )
