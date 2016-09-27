@@ -1,0 +1,6 @@
+#!/bin/bash
+virtualenv --no-site-packages --distribute -p /usr/bin/python3 virtualenv
+ln -s virtualenv/bin/activate activate
+source activate
+pip install -r requirements.txt
+deactivate

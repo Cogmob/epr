@@ -1,19 +1,14 @@
 from setuptools import setup
 
 setup(
-        name='simplads',
-        version='0.38',
+        name='epr',
+        version='0.01',
         author='Luke Avery',
         author_email='cogmob@gmail.com',
-        url='https://github.com/Cogmob/simplads',
-        description=('A set of tools for conveniently using monads'),
+        url='https://github.com/Cogmob/epr',
+        description=('Tool for quickly adding debugging output'),
         packages=[
-            'simplads',
-            'simplads.simplads',
-            'simplads.simplads.namedtuples',
-            'simplads.simplad_monad',
-            'simplads.simplad_monad.namedtuples',
-            'simplads.simplad_bundle'
+            'epr'
         ],
         long_description=open('README.rst', 'r').read()
 )

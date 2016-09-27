@@ -1,3 +1,5 @@
 .cache
+virtualenv
+tmp_example_data
 *.pyc
 *~
